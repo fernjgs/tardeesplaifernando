@@ -1,0 +1,70 @@
+.comentariosuperior {
+    font-size: 14px;
+    text-align: right;
+}
+
+p.chiste1 {
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.chistes {
+    font-size: 3em;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.chiste1 {
+    background: wheat;
+    border: 3px dotted grey;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+
+.chiste2 {
+    background: yellow;
+    border: 3px solid orange;
+    margin-right: 50%;
+    width: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.chiste3 {
+    background: turquoise;
+    border: 3px solid blue;
+    width: 50%;
+    margin-left: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.chiste4 {
+    background: wheat;
+    border: 3px dotted grey;
+    width: 50%;
+    margin-right: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.chiste5 {
+    background: yellow;
+    border: 3px solid orange;
+    width: 50%;
+    margin-left: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.chiste6 {
+    background: cyan;
+    border: 3px double blue;
+    width: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+}
