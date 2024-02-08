@@ -1,0 +1,12 @@
+.foto {
+    height: 571px;
+    width: 750px;
+    margin: auto;
+    background-image: url(/06-02/bg-2.jpg);
+    display: flex;
+}
+
+.tx {
+    width: 230px;
+    padding: 20px;
+}

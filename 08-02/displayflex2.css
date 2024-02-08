@@ -1,0 +1,36 @@
+.container {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    background-color: wheat;
+    margin: auto;
+}
+
+.fotologo {
+    width: 150px;
+    height: 150px;
+    padding: auto;
+    border-bottom: black 1px solid;
+    padding: 10px;
+}
+
+.coliz {
+    display: flex;
+    flex-direction: column;
+    border-right: black 1px solid;
+}
+
+.colder {
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+}
+
+ol {
+    list-style-type: none;
+}
+
+p {
+    text-justify: auto;
+    margin-right: 7px;
+}
