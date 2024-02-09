@@ -1,0 +1,13 @@
+body {
+    background-color: salmon;
+}
+
+
+
+h1 {
+    color: #191970;
+    text-align: right;
+    letter-spacing: 50px;
+    display: block;
+    font-size: 2em;
+}
