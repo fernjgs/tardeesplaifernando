@@ -1,0 +1,10 @@
+div {
+    background: pink;
+    width: 300px;
+    height: 300px;
+    transition: 5s;
+}
+
+div:hover {
+    background: black;
+}

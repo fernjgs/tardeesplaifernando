@@ -1,0 +1,14 @@
+div {
+    background: red;
+    width: 300px;
+    height: 300px;
+    transition: width 2s, height 2s, background 7s, font-size 5s, color 5s;
+}
+
+div:hover {
+    width: 700px;
+    height: 700px;
+    font-size: 300px;
+    background: rgb(70, 39, 153);
+    color: yellow;
+}
