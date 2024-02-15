@@ -1,0 +1,25 @@
+p:hover span {
+    transition: 3s;
+
+
+}
+
+p:hover .h {
+    font-size: 3rem;
+    color: green;
+}
+
+p:hover .o {
+    font-size: 5rem;
+    color: blue;
+}
+
+p:hover .l {
+    font-size: 6rem;
+    color: yellow;
+}
+
+p:hover .a {
+    font-size: 1rem;
+    color: red;
+}
