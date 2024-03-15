@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Grados Centigrados: <input type="text" id="Gcenti"></p>
+    <p>Grados Farenheit: <input type="text" id="Gfaren"></p>
+    <button>Calcular</button>
+
+    <script>
+
+        const calcular = () => {
+            const Gcenti = document.querySelector("#Gcenti").value;
+            document.querySelector("#Gfaren").value = Gcenti * 9 / 5 + 35;
+        }
+
+        document.querySelector("button").addEventListener("click", calcular);
+    </script>
+</body>
+
+</html>

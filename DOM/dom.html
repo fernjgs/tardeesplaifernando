@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Euros: <input type="text" id="euros"></p>
+    <p>Dolares: <input type="text" id="dollars"></p>
+    <button>Calcular</button>
+
+    <script>
+
+        const calcular = () => {
+            const euros = document.querySelector("#euros").value;
+            document.querySelector("#dollars").value = euros * 4;
+        }
+
+        document.querySelector("button").addEventListener("click", calcular);
+    </script>
+</body>
+
+</html>
