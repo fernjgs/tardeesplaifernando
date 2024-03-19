@@ -1,0 +1,56 @@
+/* #lightboxContainer {
+    display: none;
+}
+
+#overlay {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#lightbox {
+    margin: 100px auto 0 auto;
+    width: 50%;
+    height: 50%;
+    padding: 16px;
+    border: 16px solid orange;
+    background-color: white;
+    overflow: auto;
+    position: relative;
+    z-index: 9999;
+} */
+
+
+.slide {
+    width: 512px;
+    height: 512px;
+}
+
+
+.naruto {
+    background-image: url(/DOM/tuxes/PinguLinux_Naruto.png);
+}
+
+.mari {
+    background-image: url(/DOM/tuxes/PinguLinux_Marilyn_Monroe.png);
+}
+
+
+.yoda {
+    background-image: url(./tuxes/PinguLinux_Yoda.jpg);
+}
+
+.slider {
+    display: flex;
+    width: 1536px;
+    transition: 1s;
+}
+
+.sliderContainer {
+    width: 512px;
+    height: 512px;
+    overflow: hidden;
+}

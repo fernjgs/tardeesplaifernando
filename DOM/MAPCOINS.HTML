@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="mapa"
+        style="width: 725px; height: 483px; background: url(./bluemap.jpg); overflow: hidden; margin: auto; position: relative;">
+        <img src="./goldcoin.png" style="width: 50px; margin-left: 577px; margin-top: 75px; position: absolute;">
+    </div>
+    <script>
+        let code = '';
+        for (let i = 0; i < 10; i++) {
+            const monedaancha = Math.floor(Math.random() * 725);
+            const monedaalta = Math.floor(Math.random() * 483);
+
+            code += ' <img src="./goldcoin.png"width:50px;position:absolute; margin-left: ' + monedaancha + ' px; margin-top: ' + monedaalta + ' px">'
+        }
+
+        document.querySelector('.mapa').innerHTML = code;
+    </script>
+</body>
+
+</html>

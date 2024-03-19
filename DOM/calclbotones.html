@@ -1,0 +1,46 @@
+<input type="text" id="n1" placeholder="Numero 1">
+<input type="text" id="n2" placeholder="Numero 2">
+
+
+<button id="suma">+</button>
+<button id="resta">-</button>
+<button id="multiplicacion">*</button>
+<button id="division">/</button>
+<button id="Calcular">Calcular</button>
+
+
+<output id="resultado"></output>
+
+<script>
+    let op;
+    document.querySelector('#suma').addEventListener('click', () => {
+        op = '+';
+    })
+    document.querySelector('#resta').addEventListener('click', () => {
+        op = '-';
+    })
+    document.querySelector('#multiplicacion').addEventListener('click', () => {
+        op = '*';
+    })
+    document.querySelector('#division').addEventListener('click', () => {
+        op = '/';
+    })
+
+    document.querySelector('#calcular').addEventListener('click', () => {
+        const n1 = Number(document.querySelector('#n1').value);
+        const n2 = Number(document.querySelector('#n2').value);
+
+        let resultado
+        if (op == '+') {
+            resultado = n1 + n2;
+        } else if (op == '-') {
+            resultado = n1 - n2;
+        } else if (op == '*') {
+            resultado = n1 * n2;
+        } else if (op == '/') {
+            resultado = n1 / n2;
+        }
+        document.querySelector('#resultado').value;
+    });
+
+</script>

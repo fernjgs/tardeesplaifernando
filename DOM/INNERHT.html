@@ -1,0 +1,57 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="capablue" style="background-color: blueviolet; width: 200px; height: 200px;"></div>
+    <div id="capagreen" style="background-color: green; width: 200px; height: 200px;"></div>
+
+    <script>
+        const cambiaContenidoCapa2 = _ => {
+            document.querySelector("#capagreen").innerHTML = "Has hecho mouse over sobre la capa 1";
+        }
+
+        document.querySelector('#capa').addEventListener('mouseover', cambiaContenidoCapa2);
+    </script>
+
+</body>
+
+
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="display: block;">
+
+    <input type="text">
+    <output class="palabras"></output>
+
+    <script>
+        const addParagraph = (event) => {
+            const number = document.querySelector('input').value;
+            let code = '';
+            for (let i = 0; i < number; i++) {
+                code += ' Patatas ';
+            }
+            document.querySelector('.palabras').innerHTML = code;
+        }
+
+        document.querySelector('input').addEventListener('input', addParagraph);
+    </script>
+</body>
+
+</html>
