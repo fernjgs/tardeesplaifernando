@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" class="res" id=""> <input type="text" class="res" id=""> <input type="text" class="res">
+    <button>Calcular</button>
+    <p></p>
+    <script>
+        const calculate = () => {
+            let sum = 0;
+            document.querySelectorAll('.res').forEach((input) => {
+                sum += Number(input.value);
+                document.querySelector('p').innerHTML = sum;
+            });
+        };
+
+        document.querySelector('button').addEventListener('click', calculate);
+    </script>
+</body>
+
+</html>

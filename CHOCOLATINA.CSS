@@ -1,0 +1,27 @@
+.god {
+    width: 1024px;
+    height: 100%;
+    background-color: red;
+    border-radius: 5px;
+    display: flex;
+    padding: 50px;
+    gap: 300px;
+}
+
+.god:hover {
+    background-color: blue;
+}
+
+.col1 {
+    background-color: yellow;
+
+
+}
+
+.col2 {
+    background-color: green;
+}
+
+.col3 {
+    background-color: pink;
+}
